@@ -2,6 +2,7 @@
 In this project I study historical performance of the S&P500 Index over the last 50 years and the last 12 months. A similar analysis can be done for different indexes or stocks just by changing the ticker in the json file.
 
 ## Requirements
+Here are the versions of the librairies I used for this project.
 
 * Python 3.7
 * Pandas 1.0.3
