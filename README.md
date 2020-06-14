@@ -12,6 +12,6 @@ Matplotlib 2.2.2
 
 ![Alt text](relative/path/to/img.png?raw=true "S&P 500 histogram 50Y returns")
 
-![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/S&P 500 histogram 50Y returns.jpg?raw=true)
+![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/S&P 500 histogram 50Y returns.png?raw=true)
 
 ![Screenshot](S&P 500 histogram 50Y returns.png)
