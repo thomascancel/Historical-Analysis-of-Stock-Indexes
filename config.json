@@ -1,0 +1,12 @@
+{
+	"data": {
+		"ticker": "^GSPC",
+		"column": "Adj Close",
+		"start_date": "1970-01-01",
+        "end_date": "2019-12-31",
+		"save_dir": "data"
+			},
+	"analysis": {
+		"save_results": "results"
+	}
+}
