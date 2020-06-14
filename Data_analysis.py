@@ -25,7 +25,7 @@ class Data_analysis:
         plt.xticks(x, self.annualized_returns.index, rotation=90, fontsize=9)
         plt.gca().yaxis.set_major_formatter(PercentFormatter(1))
         plt.title('S&P 500 Annual Returns 1970 - 2019')
-        plt.savefig(os.path.join(self.dir, 'S&P 500 historical 50Y returns.pdf'))
+        plt.savefig(os.path.join(self.dir, 'S&P 500 historical 50Y returns.png'), bbox_inches='tight', dpi=400)
 
         months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
         xname = []
@@ -38,7 +38,7 @@ class Data_analysis:
         plt.xticks(x, xname, fontsize=9)
         plt.gca().yaxis.set_major_formatter(PercentFormatter(1))
         plt.title('S&P 500 Monthly Returns 2019 - 2020')
-        plt.savefig(os.path.join(self.dir, 'S&P 500 historical 12M returns.pdf'))
+        plt.savefig(os.path.join(self.dir, 'S&P 500 historical 12M returns.png'), bbox_inches='tight', dpi=400)
 
     def histogram_annualized_returns(self):
         ranges = [-1, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2, 1]
@@ -53,9 +53,9 @@ class Data_analysis:
                     'Between 5%\nand 10%', 'Between 10%\nand 15%', 'Between 15%\nand 20%', 'Great than 20%'],
                    fontsize=9)
         for i in range(len(r1)):
-            plt.text(x=r1[i] - 0.2, y=histo[i] + 0.002, s=str(round(histo[i], 2)*100)+'%', size=8)
+            plt.text(x=r1[i] - 0.2, y=histo[i] + 0.002, s=str(round(histo[i], 3)*100)+'%', size=8)
         plt.title('S&P 500 Annual Return 1970 - 2019')
-        plt.savefig(os.path.join(self.dir, 'S&P 500 histogram 50Y returns.pdf'))
+        plt.savefig(os.path.join(self.dir, 'S&P 500 histogram 50Y returns.png'), bbox_inches='tight', dpi=400)
 
         histo = self.monthly_returns.groupby(pd.cut(self.monthly_returns, ranges)).count() / len(
             self.monthly_returns)
@@ -69,5 +69,5 @@ class Data_analysis:
         for i in range(len(r1)):
             plt.text(x=r1[i] - 0.2, y=histo[i] + 0.002, s=str(round(histo[i], 3) * 100) + '%', size=8)
         plt.title('S&P 500 Monthly Return 2019 - 2020')
-        plt.savefig(os.path.join(self.dir, 'S&P 500 histogram 12M returns.pdf'))
+        plt.savefig(os.path.join(self.dir, 'S&P 500 histogram 12M returns.png'), bbox_inches='tight', dpi=400)
 
