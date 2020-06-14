@@ -10,8 +10,8 @@ Numpy 1.15.0
 Keras 2.2.2
 Matplotlib 2.2.2
 
-![Alt text](relative/path/to/img.png?raw=true "S&P 500 histogram 50Y returns")
+![Alt text](relative/path/to/img.png?raw=true "S&P_500_histogram_50Y_returns")
 
-![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/master/S&P 500 histogram 50Y returns.png?raw=true)
+![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/master/S&P_500_histogram_50Y_returns.png?raw=true)
 
-![Screenshot](S&P 500 histogram 50Y returns.png)
+![Screenshot](S&P_500_histogram_50Y_returns.png)
