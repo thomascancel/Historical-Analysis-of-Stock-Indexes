@@ -49,7 +49,7 @@ class Data_analysis:
         plt.figure(figsize=(12, 6))
         plt.bar(r1, histo, width=barWidth)
         plt.xticks(r1,
-                   ['Less than 10%', 'Between -10%\nand -5%', 'Between -5%\nand 0%', 'Between 0%\nand 5%',
+                   ['Less than -10%', 'Between -10%\nand -5%', 'Between -5%\nand 0%', 'Between 0%\nand 5%',
                     'Between 5%\nand 10%', 'Between 10%\nand 15%', 'Between 15%\nand 20%', 'Great than 20%'],
                    fontsize=9)
         for i in range(len(r1)):
@@ -63,7 +63,7 @@ class Data_analysis:
         plt.figure(figsize=(12, 6))
         plt.bar(r1, histo, width=barWidth)
         plt.xticks(r1,
-                   ['Less than 10%', 'Between -10%\nand -5%', 'Between -5%\nand 0%', 'Between 0%\nand 5%',
+                   ['Less than -10%', 'Between -10%\nand -5%', 'Between -5%\nand 0%', 'Between 0%\nand 5%',
                     'Between 5%\nand 10%', 'Between 10%\nand 15%', 'Between 15%\nand 20%', 'Great than 20%'],
                    fontsize=9)
         for i in range(len(r1)):
