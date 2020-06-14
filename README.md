@@ -12,7 +12,7 @@ Matplotlib 2.2.2
 
 ![Alt text](relative/path/to/img.png?raw=true "S&P_500_histogram_50Y_returns")
 
-![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/master/S&P_500_histogram_50Y_returns.png?raw=true)
+![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_histogram_50Y_returns.png?raw=true)
 
 ![Screenshot](S&P_500_histogram_50Y_returns.png)
 
