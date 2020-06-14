@@ -10,4 +10,4 @@ Numpy 1.15.0
 Keras 2.2.2
 Matplotlib 2.2.2
 
-![Alt text](relative/path/to/img.pdf?raw=true "S&P 500 histogram 50Y returns")
+![Alt text](relative/path/to/img.png?raw=true "S&P 500 histogram 50Y returns")
