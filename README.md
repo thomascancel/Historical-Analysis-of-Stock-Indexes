@@ -12,12 +12,22 @@ Here are the versions of the librairies I used for this project.
 
 ## Results
 
-![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_historical_50Y_returns.png?raw=true)
+### Annual Analysis
+
+![alt text](https://github.com/thomascancel/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_historical_50Y_returns.png?raw=true)
 
 Between 1970 and 2019, the Total Annual Return of the S&P 500 has been positive 39 years and negative 11 years. Negative peaks are often caused by global crises, as was the case in 1974 with the oil crisis or in 2008 with the financial crisis.
 
-![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_histogram_50Y_returns.png?raw=true)
+![alt text](https://github.com/thomascancel/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_histogram_50Y_returns.png?raw=true)
 
-![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_historical_12M_returns.png?raw=true)
+As seen previously, the Total Annual Returns of the S&P 500 have been mostly positive (78% of the time). For 24% of cases they were even above 20%.
 
-![alt text](https://github.com/Thomaaas31/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_histogram_12M_returns.png?raw=true)
+### Monthly Analysis
+
+![alt text](https://github.com/thomascancel/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_historical_12M_returns.png?raw=true)
+
+A similar monthly study may also be carried out. For this I have considered the last 12 months from the moment I have published this project (from July 2019 to June 2020). Thus the impact of the covid-19 crisis can be observed. Indeed, the sharp fall during the months of February and March is clearly visible with a minimum of almost -10%. The month of April was marked by a sharp rise (+13%).
+
+![alt text](https://github.com/thomascancel/Historical-Analysis-of-Stock-Indexes/blob/master/results/S&P_500_histogram_12M_returns.png?raw=true)
+
+This histogram is also showing us the impact of the covid-19 crisis. The months of February and March had returns between -10% and -5% and the month of April a return between 10% and 15%.
